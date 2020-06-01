@@ -863,10 +863,6 @@ body:after {
     .slide-one-item .owl-dots .owl-dot.active span {
       background: #0000F8; }
 
-div.carousel-item div.embed-responsive {
-  overflow: visible;
-}
-
 .block-12 {
   position: relative; }
   .block-12 figure {
