@@ -2123,8 +2123,6 @@ figure figcaption {
     font-size: 18px; }
 
 .gal-item {
-  cursor: -webkit-zoom-in;
-  cursor: zoom-in;
   display: block;
   position: relative;
   z-index: 1;
@@ -2141,3 +2139,37 @@ figure figcaption {
     z-index: 4;
     -webkit-box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.4);
     box-shadow: 0 4px 40px -4px rgba(0, 0, 0, 0.4); }
+
+div.tile {
+  width: 100%;
+  height: 100%;
+  background-color: #06316a;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+}
+
+div.tile.light {
+  background-color: #1D84B5
+}
+
+div.resources a div.tile h5 {
+  color: white;
+  padding-bottom: 1em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div.resources a div.tile div.icon {
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  font-size: xx-large;
+}
+
+div.resources a div.tile p {
+  font-size: small;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
