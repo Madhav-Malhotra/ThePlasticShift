@@ -599,9 +599,15 @@ body:after {
     padding-bottom: 0px !important; }
 
 @media (max-width: 500px) {
-  .sticky-wrapper .site-navbar .site-logo a {
-    height: 4em;
+  h1.site-logo img {
+    height: 5em;
+  }
 }
+
+@media (min-width: 501px) {
+  h1.site-logo img {
+    height: 6em;
+  }
 }
 
 /* Blocks */
@@ -2172,4 +2178,22 @@ div.resources a div.tile p {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
+}
+
+/* For Manifesto */
+summary {
+  font-size: large;
+}
+
+@media (max-width: 1200px) {
+  img.manifesto-note {
+    height: 0px;
+  }
+}
+
+img.manifesto-note {
+  width: 280px;
+  margin-left: -380px;
+  margin-top: -300px;
+  z-index: -1;
 }
