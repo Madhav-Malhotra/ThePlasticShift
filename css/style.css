@@ -600,13 +600,13 @@ body:after {
 
 @media (max-width: 500px) {
   h1.site-logo img {
-    height: 5em;
+    height: 4em;
   }
 }
 
 @media (min-width: 501px) {
   h1.site-logo img {
-    height: 6em;
+    height: 4em;
   }
 }
 
@@ -1831,6 +1831,7 @@ figure figcaption {
   bottom: 0; }
 
 .loader {
+  color: #1D84B5;
   z-index: 7700;
   position: fixed;
   top: 50%;
