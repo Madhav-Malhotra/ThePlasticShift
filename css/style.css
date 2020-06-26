@@ -645,19 +645,35 @@ body:after {
   @media (max-width: 991.98px) {
     .site-blocks-cover .intro-text {
       margin-top: 30%; } }
+      
   .site-blocks-cover h1 {
     font-size: 4rem;
     color: #06316A;
     font-weight: 700;
     text-transform: uppercase; }
+
     @media (max-width: 991.98px) {
       .site-blocks-cover h1 {
         font-size: 2rem; } }
+
   @media (max-width: 991.98px) {
     .site-blocks-cover .cover-img {
       max-width: 400px;
       margin-left: auto;
       margin-right: auto; } }
+
+  @media (max-width: 768px) {
+    .site-blocks-cover .cover-img {
+      max-width: 350px;
+      margin-left: auto;
+      margin-right: auto; } }
+
+  @media (max-width: 576px) {
+    .site-blocks-cover .cover-img {
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto; } }
+
   .site-blocks-cover p {
     color: #999999;
     font-size: 1.2rem;
@@ -1987,6 +2003,10 @@ figure.article-item img {
   width: 100%;
 }
 
+figure.article-item-temp {
+  border: 2px solid #1D84B5;
+}
+
   /* For podcasts only */
 .embed-responsive a span {
   z-index: 1;
@@ -2231,7 +2251,6 @@ img.manifesto-note {
 
 div.find-more-button {
   margin-top: 2em;
-  margin-bottom: -1em;
 }
 
 div.find-more-button a input {
@@ -2257,4 +2276,8 @@ div.find-more-button.infographic {
     margin-top: 0em;
     padding-bottom: 0em;
   }
+}
+
+img.case-study-cover {
+  border: 2px solid #1D84B5;
 }
