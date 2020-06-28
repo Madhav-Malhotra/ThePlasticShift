@@ -2003,10 +2003,6 @@ figure.article-item img {
   width: 100%;
 }
 
-figure.article-item-temp {
-  border: 2px solid #1D84B5;
-}
-
   /* For podcasts only */
 .embed-responsive a span {
   z-index: 1;
@@ -2276,8 +2272,4 @@ div.find-more-button.infographic {
     margin-top: 0em;
     padding-bottom: 0em;
   }
-}
-
-img.case-study-cover {
-  border: 2px solid #1D84B5;
 }
