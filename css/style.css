@@ -1740,6 +1740,13 @@ body:after {
     opacity: 0; } }
 
 /* Blog */
+hr.blog {
+  color: #ccc; 
+  margin-top: 3em; 
+  margin-bottom: 3em; 
+  border: 1px dashed #ccc;
+}
+
 .sidebar-box {
   margin-bottom: 30px;
   padding: 25px;
