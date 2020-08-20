@@ -2280,3 +2280,7 @@ div.find-more-button.infographic {
     padding-bottom: 0em;
   }
 }
+
+.signature {
+  width: 15em;
+}
