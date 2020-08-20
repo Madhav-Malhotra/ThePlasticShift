@@ -1270,7 +1270,7 @@ body:after {
     .ul-social-circle li span {
       width: 30px;
       height: 30px;
-      background: #1D84B5;
+      background: rgb(66, 191, 221);
       font-size: 13px;
       text-align: center;
       line-height: 30px;
@@ -1282,7 +1282,7 @@ body:after {
       -o-transition: .3s all ease;
       transition: .3s all ease; }
     .ul-social-circle li a:hover span {
-      background: #2b2b2b;
+      background: #1D84B5;
       color: #fff; }
 
 .custom-pagination a, .custom-pagination span {
