@@ -3,4 +3,4 @@ This is a website I created to showcase some research my team is working on to a
 
 You can see our work at https://theplasticshift.com
 
-![Our company logo](/images/Logo.png)
+![Our website screenshot](/Preview.png)
